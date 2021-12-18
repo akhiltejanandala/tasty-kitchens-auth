@@ -1,0 +1,20 @@
+//register
+POST http://localhost:3004/signup/
+Content-Type: application/json
+
+{
+    "username": "akhil",
+    "email": "akhil@gmail.com",
+    "password": "akhil@1997"
+}
+
+###Login
+
+POST http://localhost:3004/login/
+Content-Type: application/json
+
+{
+    "email": "akhil@gmail.com",
+    "password": "akhil@1997"
+}
+
